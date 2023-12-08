@@ -43,3 +43,4 @@ pubmed
 altair
 st-wizard-form
 simple_salesforce
+tavily-python
