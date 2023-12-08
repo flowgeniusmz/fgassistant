@@ -33,6 +33,7 @@ pandas
 tabulate
 duckduckgo-search
 pandasai
+tavily
 plotly.express
 msal-streamlit-authentication
 msal
