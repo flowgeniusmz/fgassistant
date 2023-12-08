@@ -1,0 +1,107 @@
+[
+    {
+        "concept": "Life Expectancy",
+        "summary": "Average period a person is expected to live.",
+        "detailed_description": "Life expectancy is a statistical measure of the average time an individual is expected to live, based on their current age and demographic factors. It's crucial in determining premiums and reserves in life insurance and annuities.",
+        "related_topics": ["Mortality Tables", "Annuities", "Life Insurance"],
+        "category": "both insurance and actuary"
+    },
+    {
+        "concept": "Mortality Tables",
+        "summary": "Charts showing death rates by age.",
+        "detailed_description": "Mortality tables, or life tables, display the probability of death for individuals at different ages. They are foundational in calculating life insurance premiums, pension plan contributions, and annuity pricing.",
+        "related_topics": ["Life Expectancy", "Underwriting", "Pricing"],
+        "category": "both insurance and actuary"
+    },
+    {
+        "concept": "Premium Calculation",
+        "summary": "Process of determining insurance cost.",
+        "detailed_description": "Premium calculation involves assessing the risk and determining the cost of insurance coverage. Factors include age, health, lifestyle, and coverage amount. Actuaries play a key role in this process.",
+        "related_topics": ["Risk Assessment", "Actuarial Science", "Underwriting"],
+        "category": "both insurance and actuary"
+    },
+    {
+        "concept": "Underwriting",
+        "summary": "Process of evaluating insurance risk.",
+        "detailed_description": "Underwriting is the process of evaluating the risk of insuring a home, person, or health. It determines whether the risk is acceptable and establishes the premium and terms of insurance.",
+        "related_topics": ["Risk Assessment", "Premium Calculation", "Insurance Policies"],
+        "category": "insurance only"
+    },
+    {
+        "concept": "Actuarial Reserving",
+        "summary": "Setting aside funds for future claims.",
+        "detailed_description": "Actuarial reserving involves calculating the amount of money an insurance company needs to set aside to pay future claims. This process is critical in ensuring the financial stability and solvency of insurance companies.",
+        "related_topics": ["Risk Management", "Financial Modeling", "Solvency"],
+        "category": "both insurance and actuary"
+    },
+    {
+        "concept": "Risk Management",
+        "summary": "Identifying and managing potential losses.",
+        "detailed_description": "Risk management in insurance involves identifying potential risks and implementing strategies to mitigate them. Actuaries analyze risks to help insurance companies develop policies and manage reserves.",
+        "related_topics": ["Actuarial Science", "Insurance Policies", "Risk Assessment"],
+        "category": "both insurance and actuary"
+    },
+    {
+        "concept": "Reinsurance",
+        "summary": "Insurance for insurance companies.",
+        "detailed_description": "Reinsurance is a practice where insurance companies transfer portions of their risk portfolios to other parties to reduce the likelihood of paying a large obligation resulting from an insurance claim.",
+        "related_topics": ["Risk Transfer", "Insurance Policies", "Solvency"],
+        "category": "insurance only"
+    },
+    {
+        "concept": "Annuities",
+        "summary": "Financial products providing periodic payments.",
+        "detailed_description": "Annuities are financial products that pay out a fixed stream of payments to individuals, typically used as an income stream for retirees. Actuaries calculate the value and premiums of annuities.",
+        "related_topics": ["Retirement Planning", "Pension Funds", "Life Expectancy"],
+        "category": "both insurance and actuary"
+    },
+    {
+        "concept": "Actuarial Valuation",
+        "summary": "Assessment of asset and liability value.",
+        "detailed_description": "Actuarial valuation is the process of valuing assets and liabilities, including the valuation of pension plans, insurance policies, and other financial obligations using actuarial principles and assumptions.",
+        "related_topics": ["Financial Modeling", "Pension Funds", "Liability Management"],
+        "category": "actuary only"
+    },
+    {
+        "concept": "Claim Adjustment",
+        "summary": "Process of settling insurance claims.",
+        "detailed_description": "Claim adjustment involves investigating and evaluating insurance claims to determine the extent of insuring company's liability. It includes verifying the claim, assessing damage and authorizing payment.",
+        "related_topics": ["Insurance Policies", "Risk Management", "Underwriting"],
+        "category": "insurance only"
+    },
+    {
+        "concept": "Solvency Assessment",
+        "summary": "Evaluating financial stability of a company.",
+        "detailed_description": "Solvency assessment is crucial in insurance and actuarial science to ensure that companies can meet their long-term financial obligations. It involves analyzing assets, liabilities, and capital adequacy.",
+        "related_topics": ["Financial Risk", "Regulatory Compliance", "Capital Requirements"],
+        "category": "both insurance and actuary"
+    },
+    {
+        "concept": "Pension Funding",
+        "summary": "Financing retirement benefits.",
+        "detailed_description": "Pension funding involves calculating the funds necessary to provide promised retirement benefits. Actuaries analyze various factors like employee demographics and investment returns to ensure adequate funding.",
+        "related_topics": ["Retirement Planning", "Actuarial Valuation", "Financial Modeling"],
+        "category": "both insurance and actuary"
+    },
+    {
+        "concept": "Actuarial Models",
+        "summary": "Mathematical models for risk evaluation.",
+        "detailed_description": "Actuarial models are mathematical models used by actuaries to assess and manage financial risks. These models are used in insurance, pensions, and financial planning to predict future liabilities.",
+        "related_topics": ["Risk Management", "Financial Forecasting", "Statistical Analysis"],
+        "category": "actuary only"
+    },
+    {
+        "concept": "Insurance Regulations",
+        "summary": "Legal requirements for insurance operations.",
+        "detailed_description": "Insurance regulations govern the insurance industry, including requirements for policy provisions, capital adequacy, consumer protection, and the role of insurance in financial markets.",
+        "related_topics": ["Regulatory Compliance", "Solvency Assessment", "Policy Underwriting"],
+        "category": "insurance only"
+    },
+    {
+        "concept": "Experience Rating",
+        "summary": "Determining premiums based on claim history.",
+        "detailed_description": "Experience rating involves adjusting premiums based on an insured's claim history. Actuaries use past loss data to predict future risk, ensuring premiums are commensurate with the level of risk.",
+        "related_topics": ["Risk Assessment", "Premium Calculation", "Underwriting"],
+        "category": "both insurance and actuary"
+    }
+]

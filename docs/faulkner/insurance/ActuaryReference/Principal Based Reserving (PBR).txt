@@ -1,0 +1,18 @@
+PRINCIPLE-BASED RESERVING (PBR)
+Last Updated 8/4/2022
+
+Issue: All accredited states have revised their Standard Valuation Law (#820) and the Standard Nonforfeiture Law for Life Insurance (#808) to implement principle-based reserving (PBR). Effective Jan. 1, 2017, the PBR Valuation Manual became operative. As of May 3, 2019, 51 jurisdictions have enacted legislation and the NAIC has adopted revised accreditation standards that became effective Jan. 1, 2020.
+
+PBR is a significant change in underlying laws and regulations to solve a problem created by our current regulatory framework. The issue lies with laws and guidance on how a life insurer is required to book its reserves. Insurers set aside funds, known as reserves, to pay insurance claims when they become due.
+
+Prior to PBR, static formulas and assumptions were used to determine these reserves as prescribed by state laws and regulations. However, sometimes this rule-based approach left an insurer with excessive reserves for certain insurance products and inadequate reserves for others. The solution was to "right-size" reserve calculations by replacing a rule-based approach with a principle-based approach.
+
+Under PBR, insurers are required to hold the higher of (a) reserves using prescribed factors or (b) reserves which consider a wide range of future economic conditions and is computed using credible insurer experience factors specific to an insurer, such as mortality, policyholder behavior and expenses.
+
+Background: The Principle-Based Reserving Implementation (EX) Task Force was created in 2012 to provide leadership and serve as the coordinating body for the NAIC technical groups working on PBR implementation. Having implemented Principle-Based Reserving (PBR) Implementation Plan, the Task Force and the PBR Review (E) Working Group are now disbanded.
+
+The PBR Implementation Plan included: 1) adding NAIC actuarial staff to assist the states' reviews of company PBR model results and assumptions; 2) creating the Valuation Analysis (E) Working Group to ensure uniform application of PBR across the states and companies; 3) creating regulatory reporting and review processes for reviewing PBR; 4) updating the Financial Analysis Handbook and the Financial Condition Examiners Handbook for PBR reviews; and, 5) implementing the 2016 PBR Company Pilot Project.
+
+Other significant steps taken under the Task Force in strengthening the PBR framework include enhancing communication between insurance staff and state legislatures via briefs and developing the XXX/AXXX Reinsurance Framework with the 2014 adoption and 2016 implementation of the Actuarial Guideline XLVIII-Actuarial Opinion and Memorandum Requirements for the Reinsurance of Policies Required to be Valued under Sections 6 and 7 of the NAIC Valuation of Life Insurance Policies Model Regulation (AG 48).
+
+Status: The Financial Condition (E) Committee is currently overseeing the inclusion of PBR in the financial handbooks and other activities. The Life Actuarial (A) Task Force is continuing to oversee edits to, and publication of, the Valuation Manual. Peer and quality reviews of PBR valuations are being conducted by the Valuation Analysis (E) Working Group (VAWG). The Life Actuarial (A) Task Force made revisions to VM-50 and VM-51 to enhance the quality and relevance of the experience data collected. The Life Actuarial (A) Task Force has implemented the Variable Annuity Framework adopted in 2018 by the Variable Annuities Capital and Reserves (E/A) Working Group. The Task Force work on a non-variable annuity framework continues. The target date for implementation of the non-variable annuity framework is January 2025.
