@@ -43,9 +43,7 @@ def generate_image(prompt, n:int=1, size:str="1024x1024"):
     im = Image.open(requests.get(image_url, stream=True).raw)
     im.save("temp.png")
 
-    import cv2
-    img = cv2.imread('temp.png', cv2.IMREAD_UNCHANGED)
-    cv2_imshow(img)
+    
 
 
     return image_url
