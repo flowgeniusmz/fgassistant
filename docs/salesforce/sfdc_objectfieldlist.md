@@ -1,0 +1,906 @@
+
+## Object: Account
+### (Stores account information)
+
+This table contains information about the following object in Salesforce: Account.
+
+
+- **Id**: Text - Information related to the account id of the account [Required]
+- **Name**: Text - Information related to the account name of the account [Required]
+- **Phone**: Text - Information related to the account phone of the account
+- **Type**: Text - Information related to the account type of the account
+- **Account_Type__c**: Text - Information related to the account type of the account
+- **Aesthetic_Area_Sales_Manager__c**: Text - Information related to the aesthetic area sales manager of the account
+- **BillingAddress**: Text - Information related to the billing address of the account
+- **BillingCity**: Text - Information related to the billing city of the account
+- **BillingCountry**: Text - Information related to the billing country of the account
+- **BillingCountryCode**: Text - Information related to the billing country code of the account
+- **Billing_Email_Address__c**: Text - Information related to the billing email address of the account
+- **BillingLatitude**: Text - Information related to the billing latitude of the account
+- **BillingLongitude**: Text - Information related to the billing longitude of the account
+- **BillingState**: Text - Information related to the billing state/province of the account
+- **BillingStateCode**: Text - Information related to the billing state/province code of the account
+- **BillingStreet**: Text - Information related to the billing street of the account
+- **BillingPostalCode**: Text - Information related to the billing zip/postal code of the account
+- **BP__c**: Text - Information related to the bp%23 of the account [External ID]
+- **Channel__c**: Text - Information related to the channel (sales type) of the account
+- **Class__c**: Text - Information related to the class of the account
+- **Clinic_Type__c**: Text - Information related to the clinic type of the account
+- **CreatedById**: Text - Information related to the created by id of the account [Required]
+- **CreatedDate**: Text - Information related to the created date of the account [Required]
+- **Customer__c**: Text - Information related to the customer of the account
+- **Customer_Status__c**: Text - Information related to the customer status of the account
+- **Division__c**: Text - Information related to the division of the account
+- **Email__c**: Text - Information related to the email of the account
+- **LastActivityDate**: Text - Information related to the last activity of the account
+- **LastModifiedById**: Text - Information related to the last modified by id of the account [Required]
+- **LastModifiedDate**: Text - Information related to the last modified date of the account [Required]
+- **LastReferencedDate**: Text - Information related to the last referenced date of the account
+- **Last_Sales_Activity__c**: Text - Information related to the last sales activity of the account
+- **LastViewedDate**: Text - Information related to the last viewed date of the account
+- **Lead_Sales_Rep__c**: Text - Information related to the lead sales rep of the account
+- **MobilePhone__c**: Text - Information related to the mobile of the account
+- **OwnerId**: Text - Information related to the owner id of the account [Required]
+- **Post_Sales_Rep__c**: Text - Information related to the post sales rep of the account
+- **Price_Level__c**: Text - Information related to the price level of the account
+- **Primary_Account__c**: Text - Information related to the primary account of the account [Required]
+- **Priority__c**: Text - Information related to the priority of the account
+- **Region__c**: Text - Information related to the region of the account
+- **SalesAdmin__c**: Text - Information related to the sales admin of the account
+- **SalesRepSurgical__c**: Text - Information related to the sales rep surgical of the account
+- **ShippingAddress**: Text - Information related to the shipping address of the account
+- **ShippingCity**: Text - Information related to the shipping city of the account
+- **ShippingCountry**: Text - Information related to the shipping country of the account
+- **ShippingCountryCode**: Text - Information related to the shipping country code of the account
+- **ShippingGeocodeAccuracy**: Text - Information related to the shipping geocode accuracy of the account
+- **ShippingLatitude**: Text - Information related to the shipping latitude of the account
+- **ShippingLongitude**: Text - Information related to the shipping longitude of the account
+- **ShippingState**: Text - Information related to the shipping state/province of the account
+- **ShippingStateCode**: Text - Information related to the shipping state/province code of the account
+- **ShippingStreet**: Text - Information related to the shipping street of the account
+- **ShippingPostalCode**: Text - Information related to the shipping zip/postal code of the account
+- **Specialty__c**: Text - Information related to the specialty of the account
+- **State_Province__c**: Text - Information related to the state/province of the account
+- **Subsidiary__c**: Text - Information related to the subsidiary of the account
+- **Surgical_Area_Sales_Manager__c**: Text - Information related to the surgical area sales manager of the account
+
+
+## Object: Case
+### (Stores case information)
+
+This table contains information about cases in Salesforce.
+
+- **AccountId**: Text - Information related to the account id of the case
+- **Account_Name__c**: Text - Information related to the account name of the case
+- **Account_Netsuite_Legacy_ID__c**: Text - Information related to the account netsuite legacy id of the case
+- **Action__c**: Text - Information related to the action of the case
+- **Address__c**: Text - Information related to the address of the case
+- **AskNicely__c**: Text - Information related to the asknicely of the case
+- **AssetId**: Text - Information related to the asset id of the case
+- **Billing_Zip_Postal_Code__c**: Text - Information related to the billing zip/postal code of the case
+- **Bot_First_Name__c**: Text - Information related to the bot first name of the case
+- **Bot_Service_SubType__c**: Text - Information related to the bot service subtype of the case
+- **BP__c**: Text - Information related to the bp%23 of the case
+- **Carrier_Checklist__c**: Text - Information related to the carrier checklist of the case
+- **Case_Age__c**: Text - Information related to the case age of the case
+- **Case_Comment_Interface__c**: Text - Information related to the case comment interface of the case [Required]
+- **CurrencyIsoCode**: Text - Information related to the case currency of the case
+- **Case_Icon__c**: Text - Information related to the case icon of the case
+- **Id**: Text - Information related to the case id of the case [Required]
+- **CaseNumber**: Text - Information related to the case number of the case [Required]
+- **Origin**: Text - Information related to the case origin of the case
+- **Case_Reason__c**: Text - Information related to the case reason of the case
+- **Reason**: Text - Information related to the case reason of the case
+- **Type**: Text - Information related to the case type of the case
+- **Cause__c**: Text - Information related to the cause of the case
+- **Charging_Type__c**: Text - Information related to the charging type of the case
+- **Chat_RoutableId__c**: Text - Information related to the chat routableid of the case
+- **City__c**: Text - Information related to the city of the case
+- **Classification__c**: Text - Information related to the classification of the case
+- **IsClosed**: Text - Information related to the closed of the case [Required]
+- **ClosedDate**: Text - Information related to the closed date of the case
+- **SuppliedCompany**: Text - Information related to the company of the case
+- **ContactEmail**: Text - Information related to the contact email of the case
+- **ContactFax**: Text - Information related to the contact fax of the case
+- **Contact_From_Web__c**: Text - Information related to the contact from web of the case
+- **ContactId**: Text - Information related to the contact id of the case
+- **ContactMobile**: Text - Information related to the contact mobile of the case
+- **ContactPhone**: Text - Information related to the contact phone of the case
+- **Converted_to_Lead__c**: Text - Information related to the converted to lead of the case
+- **CreatedById**: Text - Information related to the created by id of the case [Required]
+- **CreatedDate**: Text - Information related to the created date of the case [Required]
+- **CR_Representative__c**: Text - Information related to the cr representative of the case
+- **CR_SAP_Close_Date__c**: Text - Information related to the cr-sap close date of the case
+- **CR_SAP_Open_Date__c**: Text - Information related to the cr-sap open date of the case
+- **Data_Privacy_Agreemant__c**: Text - Information related to the data privacy agreemant of the case [Required]
+- **IsDeleted**: Text - Information related to the deleted of the case [Required]
+- **Queues__c**: Text - Information related to the department of the case
+- **Departmet_point_of_contact__c**: Text - Information related to the department point of contact of the case
+- **Description**: Text - Information related to the description of the case
+- **Domain__c**: Text - Information related to the domain of the case
+- **SuppliedEmail**: Text - Information related to the email address of the case
+- **Email_Opt_In__c**: Text - Information related to the email opt in of the case [Required]
+- **HasOptedOutOfEmail__c**: Text - Information related to the email opt out of the case [Required]
+- **Free_of_Charge__c**: Text - Information related to the free of charge of the case [Required]
+- **Global_Reason__c**: Text - Information related to the global reason of the case
+- **Handling_Subsidiary__c**: Text - Information related to the handling subsidiary of the case
+- **Installation_Date__c**: Text - Information related to the installation date of the case
+- **Integration_Error_Message__c**: Text - Information related to the integration error message of the case
+- **Intercompany__c**: Text - Information related to the intercompany of the case [Required]
+- **Comments**: Text - Information related to the internal comments of the case
+- **Inventory_On_Hand_Report__c**: Text - Information related to the inventory on hand report of the case
+- **Language**: Text - Information related to the language of the case
+- **LastModifiedById**: Text - Information related to the last modified by id of the case [Required]
+- **LastModifiedDate**: Text - Information related to the last modified date of the case [Required]
+- **LastReferencedDate**: Text - Information related to the last referenced date of the case
+- **LastViewedDate**: Text - Information related to the last viewed date of the case
+- **Loan__c**: Text - Information related to the loan of the case [Required]
+- **Map__c**: Text - Information related to the map of the case
+- **Map1__c**: Text - Information related to the map of the case
+- **MasterRecordId**: Text - Information related to the master record id of the case
+- **MyRicoh_Link_c__c**: Text - Information related to the myricoh link of the case
+- **SuppliedName**: Text - Information related to the name of the case
+- **NetSuit_Customer_ID__c**: Text - Information related to the netsuit customer id of the case
+- **NetSuite_Case__c**: Text - Information related to the netsuite case of the case [External ID]
+- **NetSuite_RMA_Order__c**: Text - Information related to the netsuite rma order link of the case
+- **NetSuite_RMA_Order_Number__c**: Text - Information related to the netsuite rma order number of the case [External ID]
+- **No_of_Days_Open__c**: Text - Information related to the no. of days open of the case
+- **OwnerId**: Text - Information related to the owner id of the case [Required]
+- **ParentId**: Text - Information related to the parent case id of the case
+- **SuppliedPhone**: Text - Information related to the phone of the case
+- **Practice_Name__c**: Text - Information related to the practice name of the case
+- **Priority__c**: Text - Information related to the priority of the case
+- **Priority**: Text - Information related to the priority of the case
+- **Problem_Code__c**: Text - Information related to the problem code of the case
+- **ProductId**: Text - Information related to the product id of the case
+- **Product_Name__c**: Text - Information related to the product name of the case
+- **Product_Type__c**: Text - Information related to the product type of the case
+- **Qty_of_returned_Product__c**: Text - Information related to the qty of returned product of the case
+- **RecordTypeId**: Text - Information related to the record type id of the case
+- **RMA_Type__c**: Text - Information related to the rma type of the case
+- **Run_Notification__c**: Text - Information related to the run notification of the case [Required]
+- **Service_Call__c**: Text - Information related to the service call %23 of the case
+- **Service_Call_Link__c**: Text - Information related to the service call link of the case
+- **Status**: Text - Information related to the status of the case
+- **Status_Progress__c**: Text - Information related to the status progress of the case
+- **Street__c**: Text - Information related to the street of the case
+- **Subject**: Text - Information related to the subject of the case
+- **Subsidiary__c**: Text - Information related to the subsidiary of the case
+- **Sub_Symptom__c**: Text - Information related to the sub symptom of the case
+- **Symptom_Notes__c**: Text - Information related to the symptom notes of the case
+- **SystemModstamp**: Text - Information related to the system modstamp of the case [Required]
+- **Technician__c**: Text - Information related to the technician of the case
+- **Bot_Serial_Number__c**: Text - Information related to the web serial number of the case
+- **Web_Serial_Number__c**: Text - Information related to the web serial number of the case
+- **Zone__c**: Text - Information related to the zone of the case
+
+
+
+## Object Clinical_Trainings__c
+### (Stores clinical_trainings__c information)
+
+This table contains information about clinical_trainings__cs in Salesforce.
+
+- **Account__c**: Text - Information related to the account of the clinical_trainings__c
+- **Asset__c**: Text - Information related to the asset of the clinical_trainings__c
+- **Assigned__c**: Text - Information related to the assigned of the clinical_trainings__c
+- **Assigned_Email__c**: Text - Information related to the assigned email of the clinical_trainings__c
+- **Banked_Reason__c**: Text - Information related to the banked reason of the clinical_trainings__c
+- **Booked_Date__c**: Text - Information related to the booked date of the clinical_trainings__c
+- **Booked_to_Training_Complete__c**: Text - Information related to the booked to training complete of the clinical_trainings__c
+- **BP_Account__c**: Text - Information related to the %23bp account of the clinical_trainings__c
+- **City__c**: Text - Information related to the city of the clinical_trainings__c
+- **Contact__c**: Text - Information related to the contact of the clinical_trainings__c
+- **Contact_Email__c**: Text - Information related to the contact email of the clinical_trainings__c
+- **Contact_Mobile__c**: Text - Information related to the contact mobile of the clinical_trainings__c
+- **Contact_Phone__c**: Text - Information related to the contact phone of the clinical_trainings__c
+- **Country__c**: Text - Information related to the country of the clinical_trainings__c
+- **CreatedById**: Text - Information related to the created by id of the clinical_trainings__c [Required]
+- **CreatedDate**: Text - Information related to the created date of the clinical_trainings__c [Required]
+- **CurrencyIsoCode**: Text - Information related to the currency iso code of the clinical_trainings__c
+- **Days_from_installation__c**: Text - Information related to the days from installation of the clinical_trainings__c
+- **IsDeleted**: Text - Information related to the deleted of the clinical_trainings__c [Required]
+- **Document_Uploaded__c**: Text - Information related to the document uploaded? of the clinical_trainings__c
+- **DocumentUploadedOLD__c**: Text - Information related to the document uploaded?old of the clinical_trainings__c
+- **Initial_Call_Date__c**: Text - Information related to the initial call date of the clinical_trainings__c
+- **Install_Date__c**: Text - Information related to the install date of the clinical_trainings__c
+- **Install_to_Training_Complete__c**: Text - Information related to the install to training complete of the clinical_trainings__c
+- **LastActivityDate**: Text - Information related to the last activity date of the clinical_trainings__c
+- **LastModifiedById**: Text - Information related to the last modified by id of the clinical_trainings__c [Required]
+- **LastModifiedDate**: Text - Information related to the last modified date of the clinical_trainings__c [Required]
+- **LastReferencedDate**: Text - Information related to the last referenced date of the clinical_trainings__c
+- **LastViewedDate**: Text - Information related to the last viewed date of the clinical_trainings__c
+- **Map__c**: Text - Information related to the map of the clinical_trainings__c
+- **Opportunity__c**: Text - Information related to the opportunity of the clinical_trainings__c
+- **OwnerId**: Text - Information related to the owner id of the clinical_trainings__c [Required]
+- **Product_From_Asset__c**: Text - Information related to the product of the clinical_trainings__c
+- **Product__c**: Text - Information related to the product of the clinical_trainings__c
+- **Id**: Text - Information related to the record id of the clinical_trainings__c [Required]
+- **Retrain_Reason__c**: Text - Information related to the retrain reason of the clinical_trainings__c
+- **Sales_rep__c**: Text - Information related to the sales rep of the clinical_trainings__c
+- **Scheduler__c**: Text - Information related to the scheduler of the clinical_trainings__c
+- **Ship_Date__c**: Text - Information related to the ship date of the clinical_trainings__c
+- **State_Province__c**: Text - Information related to the state/province of the clinical_trainings__c
+- **Status__c**: Text - Information related to the status of the clinical_trainings__c
+- **Street__c**: Text - Information related to the street of the clinical_trainings__c
+- **Subsidiary__c**: Text - Information related to the subsidiary of the clinical_trainings__c
+- **SystemModstamp**: Text - Information related to the system modstamp of the clinical_trainings__c [Required]
+- **Training_End_Date__c**: Text - Information related to the training end date of the clinical_trainings__c
+- **Training_Length__c**: Text - Information related to the training length of the clinical_trainings__c
+- **Name**: Text - Information related to the training name of the clinical_trainings__c
+- **Training_Start_Date__c**: Text - Information related to the training start date of the clinical_trainings__c
+- **Training_Type__c**: Text - Information related to the training type of the clinical_trainings__c
+- **Zip_Postal_Code__c**: Text - Information related to the zip/postal code of the clinical_trainings__c
+
+
+
+## Object: Contact
+### (Stores contact information)
+
+This table contains information about contacts in Salesforce.
+
+- **AccountId**: Text - Information related to the account id of the contact
+- **mkto71_Acquisition_Date__c**: Text - Information related to the acquisition date of the contact
+- **mkto71_Acquisition_Program__c**: Text - Information related to the acquisition program of the contact
+- **Active__c**: Text - Information related to the active of the contact [Required]
+- **Act_On_Lead_Score__c**: Text - Information related to the act-on lead score of the contact
+- **mkto_si__Add_to_Marketo_Campaign__c**: Text - Information related to the add to marketo campaign of the contact
+- **Alt_Email__c**: Text - Information related to the alt.email of the contact
+- **ASR_Cold_Call_Details__c**: Text - Information related to the asr cold call details of the contact
+- **AssistantName**: Text - Information related to the assistant's name of the contact
+- **AssistantPhone**: Text - Information related to the asst. phone of the contact
+- **Fax**: Text - Information related to the business fax of the contact
+- **Phone**: Text - Information related to the business phone of the contact
+- **Campaign__c**: Text - Information related to the campaign of the contact
+- **Case__c**: Text - Information related to the case of the contact
+- **Channel_Sales_Type__c**: Text - Information related to the channel (sales type) of the contact
+- **Comments__c**: Text - Information related to the comments of the contact
+- **CurrencyIsoCode**: Text - Information related to the contact currency of the contact
+- **Description**: Text - Information related to the contact description of the contact
+- **Id**: Text - Information related to the contact id of the contact [Required]
+- **Contact_Role__c**: Text - Information related to the contact role of the contact
+- **Contact_Status__c**: Text - Information related to the contact status of the contact
+- **Contract_Expiration_Date__c**: Text - Information related to the contract expiration date of the contact
+- **Contract_Signed__c**: Text - Information related to the contract signed of the contact
+- **Contract_Start_Date__c**: Text - Information related to the contract start date of the contact
+- **Contract_Type__c**: Text - Information related to the contract type of the contact
+- **CreatedById**: Text - Information related to the created by id of the contact [Required]
+- **CreatedDate**: Text - Information related to the created date of the contact [Required]
+- **asknicely__csat_comment__c**: Text - Information related to the csat comment of the contact
+- **asknicely__CSAT_Last_Responded__c**: Text - Information related to the csat last responded of the contact
+- **asknicely__csatscore__c**: Text - Information related to the csat score of the contact
+- **asknicely__CSAT_SurveyTag__c**: Text - Information related to the csat survey tag of the contact
+- **asknicely__CSAT_Type__c**: Text - Information related to the csat type of the contact
+- **Data_Privacy_Agreemant__c**: Text - Information related to the data privacy agreemant of the contact [Required]
+- **Decision_Maker__c**: Text - Information related to the decision maker of the contact
+- **Decisions_Maker__c**: Text - Information related to the decisions maker of the contact [Required]
+- **IsDeleted**: Text - Information related to the deleted of the contact [Required]
+- **Double_Opt_In__c**: Text - Information related to the double opt in of the contact
+- **Email**: Text - Information related to the email of the contact
+- **EmailBouncedDate**: Text - Information related to the email bounced date of the contact
+- **EmailBouncedReason**: Text - Information related to the email bounced reason of the contact
+- **Email_Last_Modified__c**: Text - Information related to the email last modified of the contact
+- **Email_Modified_By__c**: Text - Information related to the email modified by of the contact
+- **Email_Opt_In__c**: Text - Information related to the email opt in of the contact [Required]
+- **HasOptedOutOfEmail**: Text - Information related to the email opt out of the contact [Required]
+- **mkto_si__Priority__c**: Text - Information related to the engagement of the contact
+- **FirstName**: Text - Information related to the first name of the contact
+- **asknicely__fivestar_comment__c**: Text - Information related to the five star comment of the contact
+- **asknicely__FIVESTAR_Last_Responded__c**: Text - Information related to the five star last responded of the contact
+- **asknicely__fivestarscore__c**: Text - Information related to the five star score of the contact
+- **asknicely__FIVESTAR_SurveyTag__c**: Text - Information related to the five star survey tag of the contact
+- **asknicely__FIVESTAR_Type__c**: Text - Information related to the five star type of the contact
+- **Form_Name2__c**: Text - Information related to the form name of the contact
+- **Name**: Text - Information related to the full name of the contact [Required]
+- **Gender__c**: Text - Information related to the gender of the contact
+- **mkto_si__HideDate__c**: Text - Information related to the hide date of the contact
+- **Historical_Product__c**: Text - Information related to the historical product of the contact
+- **Historical_Treatment__c**: Text - Information related to the historical treatment of the contact
+- **HubSpot_Lead_Score__c**: Text - Information related to the hubspot lead score of the contact
+- **IndividualId**: Text - Information related to the individual id of the contact
+- **Instagram__c**: Text - Information related to the instagram of the contact
+- **Instagram_Last_Modified__c**: Text - Information related to the instagram last modified of the contact
+- **Instagram_Modified_By__c**: Text - Information related to the instagram modified by of the contact
+- **IsEmailBounced**: Text - Information related to the is email bounced of the contact [Required]
+- **JigsawContactId**: Text - Information related to the jigsaw contact id of the contact
+- **Job_Role__c**: Text - Information related to the job role of the contact
+- **LastActivityDate**: Text - Information related to the last activity of the contact
+- **mkto_si__Last_Interesting_Moment__c**: Text - Information related to the last interesting moment of the contact
+- **mkto_si__Last_Interesting_Moment_Date__c**: Text - Information related to the last interesting moment date of the contact
+- **mkto_si__Last_Interesting_Moment_Desc__c**: Text - Information related to the last interesting moment desc of the contact
+- **mkto_si__Last_Interesting_Moment_Source__c**: Text - Information related to the last interesting moment source of the contact
+- **mkto_si__Last_Interesting_Moment_Type__c**: Text - Information related to the last interesting moment type of the contact
+- **LastModifiedById**: Text - Information related to the last modified by id of the contact [Required]
+- **LastModifiedDate**: Text - Information related to the last modified date of the contact [Required]
+- **LastName**: Text - Information related to the last name of the contact [Required]
+- **LastReferencedDate**: Text - Information related to the last referenced date of the contact
+- **LastCURequestDate**: Text - Information related to the last stay-in-touch request date of the contact
+- **LastCUUpdateDate**: Text - Information related to the last stay-in-touch save date of the contact
+- **LastViewedDate**: Text - Information related to the last viewed date of the contact
+- **Lead_Generation__c**: Text - Information related to the lead generation of the contact
+- **Lead_Score__c**: Text - Information related to the lead score of the contact
+- **LeadSource**: Text - Information related to the lead source of the contact
+- **Lead_Source_Details__c**: Text - Information related to the lead source details of the contact
+- **Legal_basis_for_processing_contact_s_dat__c**: Text - Information related to the legal basis for processing contact's dat of the contact
+- **LinkedIn__c**: Text - Information related to the linkedin of the contact
+- **Link_To_Account__c**: Text - Information related to the link to account of the contact
+- **MailingAddress**: Text - Information related to the mailing address of the contact
+- **MailingCity**: Text - Information related to the mailing city of the contact
+- **MailingCountry**: Text - Information related to the mailing country of the contact
+- **MailingCountryCode**: Text - Information related to the mailing country code of the contact
+- **MailingGeocodeAccuracy**: Text - Information related to the mailing geocode accuracy of the contact
+- **MailingLatitude**: Text - Information related to the mailing latitude of the contact
+- **MailingLongitude**: Text - Information related to the mailing longitude of the contact
+- **MailingState**: Text - Information related to the mailing state/province of the contact
+- **MailingStateCode**: Text - Information related to the mailing state/province code of the contact
+- **MailingStreet**: Text - Information related to the mailing street of the contact
+- **MailingPostalCode**: Text - Information related to the mailing zip/postal code of the contact
+- **Marketing_Date__c**: Text - Information related to the marketing date of the contact
+- **Marketing_User__c**: Text - Information related to the marketing user of the contact
+- **MasterRecordId**: Text - Information related to the master record id of the contact
+- **mkto_si__Mkto_Lead_Score__c**: Text - Information related to the mkto lead score of the contact
+- **Mobile_Modified_By__c**: Text - Information related to the mobile modified by of the contact
+- **MobilePhone**: Text - Information related to the mobile phone of the contact
+- **MSE_Current_Campaign__c**: Text - Information related to the msc - current sales campaign of the contact
+- **MSE_Last_Activity__c**: Text - Information related to the msc - last activity by sales of the contact
+- **mkto72_Last_MSE_Activity__c**: Text - Information related to the msc - last marketing engagement of the contact
+- **mkto72_Last_MSE_Activity_Date__c**: Text - Information related to the msc - last marketing engagement date of the contact
+- **mkto72_Last_MSE_Activity_Desc__c**: Text - Information related to the msc - last marketing engagement desc of the contact
+- **mkto72_Last_MSE_Activity_Source__c**: Text - Information related to the msc - last marketing engagement source of the contact
+- **mkto72_Last_MSE_Activity_Type__c**: Text - Information related to the msc - last marketing engagement type of the contact
+- **MSE_Last_Replied__c**: Text - Information related to the msc - last replied of the contact
+- **MSE_Last_Engagement__c**: Text - Information related to the msc - last sales engagement of the contact
+- **MSE_Opt_Out__c**: Text - Information related to the msc - opt out of the contact [Required]
+- **NetSuite_Contact_ID__c**: Text - Information related to the netsuite contact id of the contact [External ID]
+- **asknicely__nps_comment__c**: Text - Information related to the nps comment of the contact
+- **asknicely__NPS_Last_Responded__c**: Text - Information related to the nps last responded of the contact
+- **asknicely__npsscore__c**: Text - Information related to the nps score of the contact
+- **asknicely__NPS_SurveyTag__c**: Text - Information related to the nps survey tag of the contact
+- **asknicely__NPS_Type__c**: Text - Information related to the nps type of the contact
+- **Number_of_Form_Submission__c**: Text - Information related to the number of form submission of the contact
+- **Opt_Out_All_Emails__c**: Text - Information related to the opt out all emails of the contact [Required]
+- **Owner_ID__c**: Text - Information related to the owner id of the contact
+- **OwnerId**: Text - Information related to the owner id of the contact [Required]
+- **Phone_Last_Modified__c**: Text - Information related to the phone last modified of the contact
+- **PhotoUrl**: Text - Information related to the photo url of the contact
+- **Primary__c**: Text - Information related to the primary of the contact [Required]
+- **Product__c**: Text - Information related to the product of the contact
+- **Quote_Approved_HubSpot__c**: Text - Information related to the quote approved? (hubspot) of the contact
+- **Referer__c**: Text - Information related to the referer of the contact
+- **mkto_si__Relative_Score__c**: Text - Information related to the relative score of the contact
+- **mkto_si__Relative_Score_Value__c**: Text - Information related to the relative score value of the contact
+- **RSM_Email__c**: Text - Information related to the rsm email of the contact
+- **mkto_si__Sales_Insight__c**: Text - Information related to the sales insight of the contact
+- **Salutation**: Text - Information related to the salutation of the contact
+- **mkto71_Lead_Score__c**: Text - Information related to the score of the contact
+- **Score_From_HubSpot__c**: Text - Information related to the score from hubspot of the contact
+- **Secondary_Email__c**: Text - Information related to the secondary email of the contact
+- **Social_Media_Other__c**: Text - Information related to the socia media - other of the contact
+- **Source__c**: Text - Information related to the source of the contact
+- **Specialty__c**: Text - Information related to the specialty of the contact
+- **Subsidiary__c**: Text - Information related to the subsidiary of the contact
+- **SystemModstamp**: Text - Information related to the system modstamp of the contact [Required]
+- **Title**: Text - Information related to the title of the contact
+- **Treatment__c**: Text - Information related to the treatment of the contact
+- **mkto_si__Urgency__c**: Text - Information related to the urgency of the contact
+- **mkto_si__Urgency_Value__c**: Text - Information related to the urgency value of the contact
+- **UTM_Campign__c**: Text - Information related to the utm campign of the contact
+- **UTM_Content__c**: Text - Information related to the utm content of the contact
+- **UTM_Medium__c**: Text - Information related to the utm medium of the contact
+- **UTM_Source__c**: Text - Information related to the utm source of the contact
+- **UTM_Type__c**: Text - Information related to the utm type of the contact
+- **mkto_si__View_in_Marketo__c**: Text - Information related to the view in marketo of the contact
+- **Welcome_Call_Comments__c**: Text - Information related to the welcome call comments of the contact
+- **Welcome_Call_Completed__c**: Text - Information related to the welcome call completed of the contact [Required]
+- **Zone__c**: Text - Information related to the zone of the contact
+
+
+
+## Object: Contract
+### (Stores contract information)
+
+This table contains information about contracts in Salesforce.
+
+- **AccountId**: Text - Information related to the account id of the contract [Required]
+- **ActivatedById**: Text - Information related to the activated by id of the contract
+- **ActivatedDate**: Text - Information related to the activated date of the contract
+- **Asset__c**: Text - Information related to the asset of the contract
+- **BillingAddress**: Text - Information related to the billing address of the contract
+- **BillingCity**: Text - Information related to the billing city of the contract
+- **BillingCountry**: Text - Information related to the billing country of the contract
+- **BillingCountryCode**: Text - Information related to the billing country code of the contract
+- **BillingGeocodeAccuracy**: Text - Information related to the billing geocode accuracy of the contract
+- **BillingLatitude**: Text - Information related to the billing latitude of the contract
+- **BillingLongitude**: Text - Information related to the billing longitude of the contract
+- **BillingState**: Text - Information related to the billing state/province of the contract
+- **BillingStateCode**: Text - Information related to the billing state/province code of the contract
+- **BillingStreet**: Text - Information related to the billing street of the contract
+- **BillingPostalCode**: Text - Information related to the billing zip/postal code of the contract
+- **BP__c**: Text - Information related to the bp%23 of the contract
+- **CompanySignedId**: Text - Information related to the company signed by id of the contract
+- **CompanySignedDate**: Text - Information related to the company signed date of the contract
+- **EndDate**: Text - Information related to the contract end date of the contract
+- **Id**: Text - Information related to the contract id of the contract [Required]
+- **ContractNumber**: Text - Information related to the contract number of the contract [Required]
+- **Contract_Price__c**: Text - Information related to the contract price of the contract
+- **StartDate**: Text - Information related to the contract start date of the contract
+- **ContractTerm**: Text - Information related to the contract term of the contract
+- **CreatedById**: Text - Information related to the created by id of the contract [Required]
+- **CreatedDate**: Text - Information related to the created date of the contract [Required]
+- **CurrencyIsoCode**: Text - Information related to the currency iso code of the contract
+- **CustomerSignedId**: Text - Information related to the customer signed by id of the contract
+- **CustomerSignedDate**: Text - Information related to the customer signed date of the contract
+- **CustomerSignedTitle**: Text - Information related to the customer signed title of the contract
+- **IsDeleted**: Text - Information related to the deleted of the contract [Required]
+- **Description**: Text - Information related to the description of the contract
+- **Opportunity_Opend__c**: Text - Information related to the opportunity opend of the contract [Required]
+- **OwnerExpirationNotice**: Text - Information related to the owner expiration notice of the contract
+- **OwnerId**: Text - Information related to the owner id of the contract [Required]
+- **Product__c**: Text - Information related to the product of the contract
+- **Product_Name__c**: Text - Information related to the product name of the contract
+- **Sales_Order__c**: Text - Information related to the sales order of the contract
+- **Serial_Number__c**: Text - Information related to the serial number of the contract
+- **ShippingAddress**: Text - Information related to the shipping address of the contract
+- **ShippingCity**: Text - Information related to the shipping city of the contract
+- **ShippingCountry**: Text - Information related to the shipping country of the contract
+- **ShippingCountryCode**: Text - Information related to the shipping country code of the contract
+- **ShippingGeocodeAccuracy**: Text - Information related to the shipping geocode accuracy of the contract
+- **ShippingLatitude**: Text - Information related to the shipping latitude of the contract
+- **ShippingLongitude**: Text - Information related to the shipping longitude of the contract
+- **ShippingState**: Text - Information related to the shipping state/province of the contract
+- **ShippingStateCode**: Text - Information related to the shipping state/province code of the contract
+- **ShippingStreet**: Text - Information related to the shipping street of the contract
+- **ShippingPostalCode**: Text - Information related to the shipping zip/postal code of the contract
+- **SpecialTerms**: Text - Information related to the special terms of the contract
+- **Status**: Text - Information related to the status of the contract [Required]
+- **StatusCode**: Text - Information related to the status category of the contract [Required]
+- **Subsidiary__c**: Text - Information related to the subsidiary of the contract
+- **Type__c**: Text - Information related to the type of the contract
+
+
+
+## Object: Lead
+### (Stores lead information)
+
+This table contains information about leads in Salesforce.
+
+- **Address**: Text - Information related to the address of the lead
+- **Arrivel__c**: Text - Information related to the arrival cofirmation of the lead [Required]
+- **ASR_Cold_Call_Details__c**: Text - Information related to the asr cold call details of the lead
+- **Assigned_Date__c**: Text - Information related to the assigned date of the lead
+- **Available_budget__c**: Text - Information related to the available budget of the lead
+- **Lead_Type__c**: Text - Information related to the b2b / b2c of the lead
+- **Bypass_Duplication_rule__c**: Text - Information related to the bypass duplication rule of the lead [Required]
+- **Call_Attempted__c**: Text - Information related to the call attempted of the lead
+- **Call_Details__c**: Text - Information related to the call details of the lead
+- **Campaign__c**: Text - Information related to the campaign of the lead
+- **Case__c**: Text - Information related to the case of the lead
+- **Channel__c**: Text - Information related to the channel (sales type) of the lead
+- **City**: Text - Information related to the city of the lead
+- **Clinic_Type__c**: Text - Information related to the clinic type of the lead
+- **Company**: Text - Information related to the company of the lead [Required]
+- **Competitor_Devices__c**: Text - Information related to the competitor devices of the lead
+- **Contacted_Date__c**: Text - Information related to the contacted date of the lead
+- **Contact_Role__c**: Text - Information related to the contact role of the lead
+- **Contact_Type__c**: Text - Information related to the contact type of the lead
+- **IsConverted**: Text - Information related to the converted of the lead [Required]
+- **ConvertedAccountId**: Text - Information related to the converted account id of the lead
+- **ConvertedContactId**: Text - Information related to the converted contact id of the lead
+- **ConvertedDate**: Text - Information related to the converted date of the lead
+- **ConvertedOpportunityId**: Text - Information related to the converted opportunity id of the lead
+- **Country**: Text - Information related to the country of the lead
+- **CountryCode**: Text - Information related to the country code of the lead
+- **CreatedById**: Text - Information related to the created by id of the lead [Required]
+- **CreatedDate**: Text - Information related to the created date of the lead [Required]
+- **Customer__c**: Text - Information related to the customer of the lead
+- **Date_Closed__c**: Text - Information related to the date closed of the lead
+- **DB_Created_Date_without_Time__c**: Text - Information related to the db created date without time of the lead
+- **DB_Lead_Age__c**: Text - Information related to the db lead age of the lead
+- **Decision_Maker__c**: Text - Information related to the decision maker of the lead
+- **IsDeleted**: Text - Information related to the deleted of the lead [Required]
+- **Description**: Text - Information related to the description of the lead
+- **Disqualified_Reason__c**: Text - Information related to the disqualified reason of the lead
+- **Division__c**: Text - Information related to the division of the lead
+- **DoNotCall**: Text - Information related to the do not call of the lead [Required]
+- **Double_Opt_In__c**: Text - Information related to the double opt in of the lead
+- **Duns_Number__c**: Text - Information related to the duns number of the lead
+- **Email**: Text - Information related to the email of the lead
+- **EmailBouncedDate**: Text - Information related to the email bounced date of the lead
+- **EmailBouncedReason**: Text - Information related to the email bounced reason of the lead
+- **Email_Last_Modified__c**: Text - Information related to the email last modified of the lead
+- **Email_Modified_By__c**: Text - Information related to the email modified by of the lead
+- **Email_Opt_In__c**: Text - Information related to the email opt in of the lead [Required]
+- **HasOptedOutOfEmail**: Text - Information related to the email opt out of the lead [Required]
+- **First_Conversion__c**: Text - Information related to the first conversion of the lead
+- **FirstName**: Text - Information related to the first name of the lead
+- **Form_Name__c**: Text - Information related to the form name of the lead
+- **Name**: Text - Information related to the full name of the lead [Required]
+- **Gender__c**: Text - Information related to the gender of the lead
+- **IndividualId**: Text - Information related to the individual id of the lead
+- **Initiated_Date__c**: Text - Information related to the initiated date of the lead
+- **Inside_Sales_Notes__c**: Text - Information related to the inside sales notes of the lead
+- **IS_Involvement__c**: Text - Information related to the is involvement of the lead [Required]
+- **IS_Rep__c**: Text - Information related to the is rep of the lead
+- **Job_Role__c**: Text - Information related to the job role of the lead
+- **LastName**: Text - Information related to the last name of the lead [Required]
+- **Latitude**: Text - Information related to the latitude of the lead
+- **Lead__c**: Text - Information related to the lead of the lead
+- **Lead_Generation__c**: Text - Information related to the lead generation of the lead
+- **Id**: Text - Information related to the lead id of the lead [Required]
+- **Lead_Score__c**: Text - Information related to the lead score of the lead
+- **Lead_Score_Icon__c**: Text - Information related to the lead score icon of the lead
+- **LeadSource**: Text - Information related to the lead source of the lead
+- **Lead_Source_Comment__c**: Text - Information related to the lead source comment of the lead
+- **Lead_Source_Details__c**: Text - Information related to the lead source details of the lead
+- **Longitude**: Text - Information related to the longitude of the lead
+- **Manager_Email__c**: Text - Information related to the manager email of the lead
+- **No_of_Days_Open__c**: Text - Information related to the no. of days open of the lead
+- **No_Of_Not_Answered_Calls__c**: Text - Information related to the no. of not answered calls of the lead
+- **Notes__c**: Text - Information related to the notes of the lead
+- **Opt_Out_All_Emails__c**: Text - Information related to the opt out all emails of the lead [Required]
+- **Other_Reason__c**: Text - Information related to the other (reason) of the lead
+- **OwnerId**: Text - Information related to the owner id of the lead [Required]
+- **Owner_ID__c**: Text - Information related to the owner id of the lead
+- **Phone**: Text - Information related to the phone of the lead
+- **Phone_Last_Modified__c**: Text - Information related to the phone last modified of the lead
+- **PhotoUrl**: Text - Information related to the photo url of the lead
+- **Practice_Type__c**: Text - Information related to the practice type of the lead
+- **Product__c**: Text - Information related to the product of the lead
+- **Profession__c**: Text - Information related to the profession of the lead
+- **Rating**: Text - Information related to the rating of the lead
+- **Reason__c**: Text - Information related to the reason of the lead
+- **Recent_Conversion__c**: Text - Information related to the recent conversion of the lead
+- **Referer__c**: Text - Information related to the referer of the lead
+- **Region__c**: Text - Information related to the region of the lead
+- **RSM_Email__c**: Text - Information related to the rsm email of the lead
+- **Source__c**: Text - Information related to the source of the lead
+- **Specialty__c**: Text - Information related to the specialty of the lead
+- **State_Province__c**: Text - Information related to the state/province of the lead
+- **State**: Text - Information related to the state/province of the lead
+- **StateCode**: Text - Information related to the state/province code of the lead
+- **Status**: Text - Information related to the status of the lead [Required]
+- **Street**: Text - Information related to the street of the lead
+- **Sub_Region__c**: Text - Information related to the sub region of the lead
+- **Subsidiary__c**: Text - Information related to the subsidiary of the lead
+- **SystemModstamp**: Text - Information related to the system modstamp of the lead [Required]
+- **Technology_Interest__c**: Text - Information related to the technology interest of the lead
+- **Title**: Text - Information related to the title of the lead
+- **Treatment__c**: Text - Information related to the treatment of the lead
+- **Treatment_Type__c**: Text - Information related to the treatment type of the lead
+- **IsUnreadByOwner**: Text - Information related to the unread by owner of the lead [Required]
+- **Website**: Text - Information related to the website of the lead
+- **zip_code_new__c**: Text - Information related to the zip code new of the lead
+- **PostalCode**: Text - Information related to the zip/postal code of the lead
+- **Zone__c**: Text - Information related to the zone of the lead
+
+
+
+## Object: Opportunity
+### (Stores opportunity information)
+
+This table contains information about the following object in Salesforce: Opportunity.
+
+- **AccountId**: Text - Information related to the account id of the opportunity
+- **Account_Type__c**: Text - Information related to the account type of the opportunity
+- **Actual_Amount_Total__c**: Text - Information related to the actual amount total of the opportunity
+- **Amount**: Text - Information related to the amount of the opportunity
+- **Amount__c**: Text - Information related to the amount for alma inc of the opportunity
+- **Channel_Sales_Type__c**: Text - Information related to the channel (sales type) of the opportunity
+- **CloseDate**: Text - Information related to the close date of the opportunity [Required]
+- **Closed_Lost_Reason__c**: Text - Information related to the closed lost reason of the opportunity
+- **Closed_Lost_Reason_Comments__c**: Text - Information related to the closed lost reason comments of the opportunity
+- **ContactId**: Text - Information related to the contact id of the opportunity
+- **CreatedById**: Text - Information related to the created by id of the opportunity [Required]
+- **CreatedDate**: Text - Information related to the created date of the opportunity [Required]
+- **Created_From_Asset_or_Contract__c**: Text - Information related to the created from asset or contract of the opportunity [Required]
+- **Debooked__c**: Text - Information related to the debooked of the opportunity [Required]
+- **Debooked_Revenue__c**: Text - Information related to the debooked revenue of the opportunity
+- **Email__c**: Text - Information related to the email of the opportunity
+- **IsExcludedFromTerritory2Filter**: Text - Information related to the exclude from the territory assignment filter logic of the opportunity [Required]
+- **Fiscal**: Text - Information related to the fiscal period of the opportunity
+- **FiscalQuarter**: Text - Information related to the fiscal quarter of the opportunity
+- **FiscalYear**: Text - Information related to the fiscal year of the opportunity
+- **ForecastCategory**: Text - Information related to the forecast category of the opportunity [Required]
+- **ForecastCategoryName**: Text - Information related to the forecast category of the opportunity
+- **From_Case__c**: Text - Information related to the from case of the opportunity [Required]
+- **From_Lead__c**: Text - Information related to the from lead of the opportunity [Required]
+- **Install_Date__c**: Text - Information related to the install date of the opportunity
+- **IS_Involvement__c**: Text - Information related to the is involvement of the opportunity [Required]
+- **IS_Rep__c**: Text - Information related to the is rep of the opportunity
+- **IsSplit**: Text - Information related to the is split of the opportunity [Required]
+- **LastActivityDate**: Text - Information related to the last activity of the opportunity
+- **LastModifiedById**: Text - Information related to the last modified by id of the opportunity [Required]
+- **LastModifiedDate**: Text - Information related to the last modified date of the opportunity [Required]
+- **LastReferencedDate**: Text - Information related to the last referenced date of the opportunity
+- **LastStageChangeDate**: Text - Information related to the last stage change date of the opportunity
+- **LastViewedDate**: Text - Information related to the last viewed date of the opportunity
+- **LeadSource**: Text - Information related to the lead source of the opportunity
+- **Lead_Source_Details__c**: Text - Information related to the lead source details of the opportunity
+- **Name**: Text - Information related to the name of the opportunity [Required]
+- **Id**: Text - Information related to the opportunity id of the opportunity [Required]
+- **Type**: Text - Information related to the opportunity type of the opportunity
+- **Order_Type__c**: Text - Information related to the order type of the opportunity
+- **OwnerId**: Text - Information related to the owner id of the opportunity [Required]
+- **Pricebook2Id**: Text - Information related to the price book id of the opportunity
+- **Product__c**: Text - Information related to the product of the opportunity
+- **RecordTypeId**: Text - Information related to the record type id of the opportunity
+- **Sales_Admin__c**: Text - Information related to the sales admin of the opportunity
+- **Sales_Rep__c**: Text - Information related to the sales rep of the opportunity
+- **Shipment_Status__c**: Text - Information related to the shipment status of the opportunity
+- **Shipping_Comments__c**: Text - Information related to the shipping comments of the opportunity
+- **Shipping_Status__c**: Text - Information related to the shipping status of the opportunity
+- **Ship_To_Address__c**: Text - Information related to the ship to address of the opportunity
+- **StageName**: Text - Information related to the stage of the opportunity [Required]
+- **State_Province__c**: Text - Information related to the state/province of the opportunity
+- **Subsidiary__c**: Text - Information related to the subsidiary of the opportunity
+- **Surgical_Sales_Rep__c**: Text - Information related to the surgical sales rep of the opportunity
+- **Territory2Id**: Text - Information related to the territory id of the opportunity
+- **TM_Involvement__c**: Text - Information related to the tm involvement of the opportunity
+- **Total_Amount__c**: Text - Information related to the total amount of the opportunity
+- **Total_Post_Sale_Price__c**: Text - Information related to the total post sale price of the opportunity
+- **Amount_Final__c**: Text - Information related to the total sales price (net) of the opportunity
+- **Total_Sales_Price_Without_Deposit__c**: Text - Information related to the total sales price (without deposit) of the opportunity
+
+
+
+## Object: Quote
+### (Stores quote information)
+
+This table contains information about quotes in Salesforce.
+
+- **AccountId**: Text - Information related to the account id of the quote
+- **Amount_Difference__c**: Text - Information related to the amount difference of the quote
+- **Approval_Status__c**: Text - Information related to the approval process status of the quote
+- **BillingAddress**: Text - Information related to the bill to of the quote
+- **BillingCity**: Text - Information related to the bill to city of the quote
+- **BillingCountry**: Text - Information related to the bill to country of the quote
+- **BillingCountryCode**: Text - Information related to the bill to country code of the quote
+- **BillingGeocodeAccuracy**: Text - Information related to the bill to geocode accuracy of the quote
+- **BillingLatitude**: Text - Information related to the bill to latitude of the quote
+- **BillingLongitude**: Text - Information related to the bill to longitude of the quote
+- **BillingName**: Text - Information related to the bill to name of the quote
+- **BillingState**: Text - Information related to the bill to state/province of the quote
+- **BillingStateCode**: Text - Information related to the bill to state/province code of the quote
+- **BillingStreet**: Text - Information related to the bill to street of the quote
+- **BillingPostalCode**: Text - Information related to the bill to zip/postal code of the quote
+- **Bundle__c**: Text - Information related to the bundle of the quote
+- **CanCreateQuoteLineItems**: Text - Information related to the can create quote line items of the quote [Required]
+- **Channel_Manager__c**: Text - Information related to the channel manager of the quote
+- **Channel_Sales_Type__c**: Text - Information related to the channel (sales type) of the quote
+- **Closed_Reason__c**: Text - Information related to the closed reason of the quote
+- **Comments_in_Quote_PDF_above__c**: Text - Information related to the comments in quote pdf of the quote
+- **Comments_in_Quote_PDF_above_2__c**: Text - Information related to the comments in quote pdf above 2 of the quote
+- **Comments_in_Quote_PDF__c**: Text - Information related to the comments in quote pdf below of the quote
+- **ContactId**: Text - Information related to the contact id of the quote
+- **Contact_Salutation__c**: Text - Information related to the contact salutation of the quote
+- **CreatedById**: Text - Information related to the created by id of the quote [Required]
+- **CreatedDate**: Text - Information related to the created date of the quote [Required]
+- **CurrencyIsoCode**: Text - Information related to the currency iso code of the quote
+- **IsDeleted**: Text - Information related to the deleted of the quote [Required]
+- **DELIVERY_DATE__c**: Text - Information related to the delivery date of the quote
+- **Description**: Text - Information related to the description of the quote
+- **Discount_Percentage__c**: Text - Information related to the discount percentage of the quote
+- **Discount_Total__c**: Text - Information related to the discount total of the quote
+- **Doc_Status__c**: Text - Information related to the document status of the quote
+- **Email**: Text - Information related to the email of the quote
+- **Email_For_Sending__c**: Text - Information related to the email for sending of the quote
+- **Encrypted_Quote__c**: Text - Information related to the encrypted_quote of the quote
+- **Existing_Customer__c**: Text - Information related to the existing customer of the quote
+- **ExpirationDate**: Text - Information related to the expiration date of the quote
+- **Fax**: Text - Information related to the fax of the quote
+- **Federal_Tax_ID_or_Social_Security_Number__c**: Text - Information related to the federal tax id or social security number of the quote
+- **Final_Approver__c**: Text - Information related to the final approver of the quote
+- **Finance_Approver__c**: Text - Information related to the finance approver of the quote
+- **Finance_ltd__c**: Text - Information related to the finance ltd of the quote
+- **Finish_Agreement__c**: Text - Information related to the finish agreement of the quote [Required]
+- **Grand_Total_Value__c**: Text - Information related to the grand total value of the quote
+- **Issued_Date__c**: Text - Information related to the issued date of the quote
+- **LastModifiedById**: Text - Information related to the last modified by id of the quote [Required]
+- **LastModifiedDate**: Text - Information related to the last modified date of the quote [Required]
+- **LastReferencedDate**: Text - Information related to the last referenced date of the quote
+- **LastViewedDate**: Text - Information related to the last viewed date of the quote
+- **LineItemCount**: Text - Information related to the line items of the quote
+- **Name_of_Physician__c**: Text - Information related to the name of physician of the quote
+- **Num_Of_Payments__c**: Text - Information related to the num of payments of the quote
+- **OpportunityId**: Text - Information related to the opportunity id of the quote [Required]
+- **OwnerId**: Text - Information related to the owner id of the quote [Required]
+- **Payment_Terms__c**: Text - Information related to the payment terms of the quote
+- **Payment_Terms2__c**: Text - Information related to the payment terms2 of the quote
+- **Phone**: Text - Information related to the phone of the quote
+- **PONumber__c**: Text - Information related to the po%23 of the quote
+- **Pricebook2Id**: Text - Information related to the price book id of the quote
+- **Id**: Text - Information related to the quote id of the quote [Required]
+- **Name**: Text - Information related to the quote name of the quote [Required]
+- **QuoteNumber**: Text - Information related to the quote number of the quote [Required]
+- **Record_Locked__c**: Text - Information related to the record locked of the quote [Required]
+- **Sales_Rep_Email__c**: Text - Information related to the sales rep email of the quote
+- **Sales_Rep_Phone__c**: Text - Information related to the sales rep phone of the quote
+- **ShippingHandling**: Text - Information related to the shipping and handling of the quote
+- **ShippingAddress**: Text - Information related to the ship to of the quote
+- **ShippingCity**: Text - Information related to the ship to city of the quote
+- **ShippingCountry**: Text - Information related to the ship to country of the quote
+- **ShippingCountryCode**: Text - Information related to the ship to country code of the quote
+- **ShippingGeocodeAccuracy**: Text - Information related to the ship to geocode accuracy of the quote
+- **ShippingLatitude**: Text - Information related to the ship to latitude of the quote
+- **ShippingLongitude**: Text - Information related to the ship to longitude of the quote
+- **ShippingName**: Text - Information related to the ship to name of the quote
+- **ShippingState**: Text - Information related to the ship to state/province of the quote
+- **ShippingStateCode**: Text - Information related to the ship to state/province code of the quote
+- **ShippingStreet**: Text - Information related to the ship to street of the quote
+- **ShippingPostalCode**: Text - Information related to the ship to zip/postal code of the quote
+- **Status**: Text - Information related to the status of the quote
+- **Submission1_id__c**: Text - Information related to the submission1_id of the quote
+- **Submission2_id__c**: Text - Information related to the submission2_id of the quote
+- **Submission3_id__c**: Text - Information related to the submission3_id of the quote
+- **Submission9_id__c**: Text - Information related to the submission9_id of the quote
+- **Subsidiary2__c**: Text - Information related to the subsidiary of the quote
+- **Subtotal**: Text - Information related to the subtotal of the quote
+- **IsSyncing**: Text - Information related to the syncing of the quote [Required]
+- **System_Delivery_Instructions__c**: Text - Information related to the system delivery instructions of the quote
+- **SystemModstamp**: Text - Information related to the system modstamp of the quote [Required]
+- **Tax**: Text - Information related to the tax of the quote
+- **Taxpayer_ID__c**: Text - Information related to the taxpayer id of the quote
+- **Tax_Registration_Number__c**: Text - Information related to the tax registration number of the quote
+- **Total_Discount_Amount__c**: Text - Information related to the total discount amount of the quote
+- **Total_List_Amount__c**: Text - Information related to the total list price of the quote
+- **Total_Manufacturing_Cost__c**: Text - Information related to the total manufacturing cost of the quote
+- **Total_Manufacturing_Cost1__c**: Text - Information related to the total manufacturing cost of the quote
+- **Total_Value__c**: Text - Information related to the total value of the quote
+- **Treatment__c**: Text - Information related to the treatment of the quote
+
+
+
+## Object: User
+### (Stores user information)
+
+This table contains information about the following object in Salesforce: User.
+
+- **AboutMe**: Text - Information related to the about me of the user
+- **AccountId**: Text - Information related to the account id of the user
+- **IsActive**: Text - Information related to the active of the user [Required]
+- **Alias**: Text - Information related to the alias of the user [Required]
+- **ForecastEnabled**: Text - Information related to the allow forecasting of the user [Required]
+- **CompanyName**: Text - Information related to the company name of the user
+- **ContactId**: Text - Information related to the contact id of the user
+- **Country**: Text - Information related to the country of the user
+- **CountryCode**: Text - Information related to the country code of the user
+- **CreatedById**: Text - Information related to the created by id of the user [Required]
+- **CreatedDate**: Text - Information related to the created date of the user [Required]
+- **CurrencyIsoCode**: Text - Information related to the currency iso code of the user [Required]
+- **DB_Region__c**: Text - Information related to the db region of the user
+- **Department**: Text - Information related to the department of the user
+- **Division**: Text - Information related to the division of the user
+- **Email**: Text - Information related to the email of the user [Required]
+- **Employee_ID__c**: Text - Information related to the employee id of the user [External ID]
+- **EmployeeNumber**: Text - Information related to the employee number of the user
+- **FirstName**: Text - Information related to the first name of the user
+- **Name**: Text - Information related to the full name of the user [Required]
+- **Global_Region__c**: Text - Information related to the global region of the user
+- **GM_Subsidiary__c**: Text - Information related to the gm subsidiary of the user [Required]
+- **IndividualId**: Text - Information related to the individual id of the user
+- **IsPortalEnabled**: Text - Information related to the is portal enabled of the user [Required]
+- **LanguageLocaleKey**: Text - Information related to the language of the user [Required]
+- **LastLoginDate**: Text - Information related to the last login of the user
+- **LastModifiedById**: Text - Information related to the last modified by id of the user [Required]
+- **LastModifiedDate**: Text - Information related to the last modified date of the user [Required]
+- **LastName**: Text - Information related to the last name of the user [Required]
+- **LastPasswordChangeDate**: Text - Information related to the last password change or reset of the user
+- **LastReferencedDate**: Text - Information related to the last referenced date of the user
+- **LastViewedDate**: Text - Information related to the last viewed date of the user
+- **Latitude**: Text - Information related to the latitude of the user
+- **ManagerId**: Text - Information related to the manager id of the user
+- **MobilePhone**: Text - Information related to the mobile of the user
+- **My_Alma__c**: Text - Information related to the my alma of the user [Required]
+- **CommunityNickname**: Text - Information related to the nickname of the user [Required]
+- **Permission_Titan__c**: Text - Information related to the permission titan of the user [Required]
+- **Phone**: Text - Information related to the phone of the user
+- **PortalRole**: Text - Information related to the portal role level of the user
+- **ProfileId**: Text - Information related to the profile id of the user [Required]
+- **Region__c**: Text - Information related to the region of the user
+- **Regional_Sales_Manager__c**: Text - Information related to the regional sales manager of the user
+- **UserRoleId**: Text - Information related to the role id of the user
+- **Role_Name__c**: Text - Information related to the role name of the user
+- **FederationIdentifier**: Text - Information related to the saml federation id of the user
+- **Service_Contract__c**: Text - Information related to the service contract of the user [Required]
+- **SSO_From_Azure__c**: Text - Information related to the sso from azure of the user
+- **State**: Text - Information related to the state/province of the user
+- **StateCode**: Text - Information related to the state/province code of the user
+- **Subsidiary__c**: Text - Information related to the subsidiary of the user
+- **User__c**: Text - Information related to the user of the user
+- **Id**: Text - Information related to the user id of the user [Required]
+- **Username**: Text - Information related to the username of the user [Required]
+- **User_Type__c**: Text - Information related to the user profile type of the user
+- **UserType**: Text - Information related to the user type of the user
+
+
+`
+## Object: Asset
+### (Stores asset information)
+
+This table contains information about assets in Salesforce.
+
+- **AccountId**: Text - Information related to the account id of the asset
+- **Account_Name__c**: Text - Information related to the account name of the asset
+- **Address**: Text - Information related to the address of the asset
+- **Address__c**: Text - Information related to the address of the asset
+- **Asset_Description_c__c**: Text - Information related to the asset description of the asset
+- **Id**: Text - Information related to the asset id of the asset [Required]
+- **Asset_Item_Category__c**: Text - Information related to the asset item category of the asset
+- **Name**: Text - Information related to the asset name of the asset [Required]
+- **City**: Text - Information related to the city of the asset
+- **IsCompetitorProduct**: Text - Information related to the competitor asset of the asset [Required]
+- **ContactId**: Text - Information related to the contact id of the asset
+- **Contract_Check_List__c**: Text - Information related to the contract check list of the asset
+- **Contract_End_Date__c**: Text - Information related to the contract end date of the asset
+- **Contract_Start_Date__c**: Text - Information related to the contract start date of the asset
+- **Contract_Type__c**: Text - Information related to the contract type of the asset
+- **Country__c**: Text - Information related to the country of the asset
+- **Country**: Text - Information related to the country of the asset
+- **CountryCode**: Text - Information related to the country code of the asset
+- **CreatedById**: Text - Information related to the created by id of the asset [Required]
+- **CreatedDate**: Text - Information related to the created date of the asset [Required]
+- **CurrencyIsoCode**: Text - Information related to the currency iso code of the asset
+- **Customer_BP_Number__c**: Text - Information related to the customer bp number of the asset
+- **Customer_on_hold__c**: Text - Information related to the customer on hold of the asset [Required]
+- **Customer_Warranty_End_Date__c**: Text - Information related to the customer warranty end date of the asset
+- **Customer_Warranty_Start_Date__c**: Text - Information related to the customer warranty start date of the asset
+- **IsDeleted**: Text - Information related to the deleted of the asset [Required]
+- **Description**: Text - Information related to the description of the asset
+- **Final_Code__c**: Text - Information related to the final code of the asset
+- **GeocodeAccuracy**: Text - Information related to the geocode accuracy of the asset
+- **Has_Related_Expendable__c**: Text - Information related to the has related expendable of the asset [Required]
+- **Installation_Date__c**: Text - Information related to the installation date of the asset
+- **InstallDate**: Text - Information related to the install date of the asset
+- **Item_Category__c**: Text - Information related to the item category of the asset
+- **Key__c**: Text - Information related to the key of the asset
+- **Key_Encryption_Number__c**: Text - Information related to the key encryption number of the asset
+- **Key_End_Date__c**: Text - Information related to the key end date of the asset
+- **Key_Memo__c**: Text - Information related to the key memo of the asset
+- **Key_Notification_Number__c**: Text - Information related to the key notification number of the asset
+- **Key_Start_Date__c**: Text - Information related to the key start date of the asset
+- **Last_Maintenance_Date__c**: Text - Information related to the last maintenance date of the asset
+- **LastModifiedById**: Text - Information related to the last modified by id of the asset [Required]
+- **LastModifiedDate**: Text - Information related to the last modified date of the asset [Required]
+- **LastReferencedDate**: Text - Information related to the last referenced date of the asset
+- **LastViewedDate**: Text - Information related to the last viewed date of the asset
+- **Latitude**: Text - Information related to the latitude of the asset
+- **Location_store_value__c**: Text - Information related to the location store value of the asset
+- **Longitude**: Text - Information related to the longitude of the asset
+- **Map__c**: Text - Information related to the map of the asset
+- **Memo__c**: Text - Information related to the memo of the asset
+- **Next_Maintenance_Date__c**: Text - Information related to the next maintenance date of the asset
+- **Next_Maintenance_Date_Checked__c**: Text - Information related to the next maintenance date checked of the asset [Required]
+- **NS_ASSET_ID__c**: Text - Information related to the ns_asset_id of the asset [External ID]
+- **Open_Case__c**: Text - Information related to the open case of the asset [Required]
+- **Opportunity_Opend__c**: Text - Information related to the opportunity opend of the asset [Required]
+- **OwnerId**: Text - Information related to the owner id of the asset [Required]
+- **ParentId**: Text - Information related to the parent asset id of the asset
+- **Phone__c**: Text - Information related to the phone of the asset
+- **PostalCode**: Text - Information related to the postal code of the asset
+- **Price**: Text - Information related to the price of the asset
+- **Product2Id**: Text - Information related to the product id of the asset
+- **Product_Name__c**: Text - Information related to the product name of the asset
+- **StockKeepingUnit**: Text - Information related to the product sku of the asset
+- **Product_Type__c**: Text - Information related to the product type of the asset
+- **PurchaseDate**: Text - Information related to the purchase date of the asset
+- **Quantity**: Text - Information related to the quantity of the asset
+- **Remarks__c**: Text - Information related to the remarks of the asset
+- **RootAssetId**: Text - Information related to the root asset id of the asset
+- **Sent_Key__c**: Text - Information related to the sent key of the asset [Required]
+- **SerialNumber**: Text - Information related to the serial number of the asset
+- **Serial_Number_For_Duplicate__c**: Text - Information related to the serial number for duplicate of the asset [Unique]
+- **Service_type__c**: Text - Information related to the service type of the asset
+- **Software_Serial_Number__c**: Text - Information related to the software serial number of the asset
+- **State**: Text - Information related to the state of the asset
+- **State__c**: Text - Information related to the state of the asset
+- **StateCode**: Text - Information related to the state/province code of the asset
+- **Status**: Text - Information related to the status of the asset
+- **Street**: Text - Information related to the street of the asset
+- **Subsidiary2__c**: Text - Information related to the subsidiary of the asset
+- **SystemModstamp**: Text - Information related to the system modstamp of the asset [Required]
+- **Time_Lock_Code__c**: Text - Information related to the time lock code of the asset
+- **UsageEndDate**: Text - Information related to the usage end date of the asset
+- **Vendor_Warranty_End_Date__c**: Text - Information related to the vendor warranty end date of the asset
+- **Vendor_Warranty_Start_Date__c**: Text - Information related to the vendor warranty start date of the asset
+
+
