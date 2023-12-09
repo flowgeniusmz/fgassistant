@@ -1,6 +1,7 @@
 import json
 
-def append_tool_schema_to_file(schema, file_name='tools_schema.json'):
+file_name = "'../../../schemas/tool_schemas.json'
+def append_tool_schema_to_file(schema):
     try:
         # Load the existing data from the file
         try:
