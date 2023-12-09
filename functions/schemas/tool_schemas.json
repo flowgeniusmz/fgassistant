@@ -33,5 +33,19 @@
         "required": ["varQuery"]
     }
   },
-  "webpage_extractor": 
+  "webpage_extractor": {
+    "name": "dynamic_webpage_extractor",
+    "description": "Extracts and compiles different types of content from a webpage specified by the URL.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "url": {
+                "type": "string",
+                "description": "The URL of the webpage to be extracted."
+            }
+        },
+        "required": ["url"]
+    }
+  },
+  "generate_image": {
 }
