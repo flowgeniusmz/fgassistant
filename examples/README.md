@@ -17,3 +17,5 @@ https://github.com/yoheinakajima/captainfunction
 https://lablab.ai/t/openai-assistants-api-unleashed
 https://github.com/lablab-ai/community-content/blob/main/tutorials/en/openai-assistants-api-unleashed.mdx
 
+#### Dynamic Assistant
+https://github.com/MrXandbadas/OPENAI_Assistant_Python_Dynamic_function_call_on_demand_With_Autogen/tree/main
