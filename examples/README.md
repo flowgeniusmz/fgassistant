@@ -8,3 +8,10 @@ https://github.com/davideuler/awesome-assistant-api
 
 #### Create Openai Function
 https://gist.github.com/flowgeniusmz/ad55980f2c6aa73ea3bb19ee0301a3e2
+
+
+#### Captain Function
+https://github.com/yoheinakajima/captainfunction
+
+
+
