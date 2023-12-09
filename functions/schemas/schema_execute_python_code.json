@@ -1,4 +1,4 @@
-schema_execute_python_code = {
+{
     "name": "execute_python_code",
     "description": "Executes a given string of Python code in a temporary file and returns the output.",
     "parameters": {
