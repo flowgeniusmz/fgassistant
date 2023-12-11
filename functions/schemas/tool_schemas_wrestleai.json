@@ -1,0 +1,236 @@
+[
+    {
+        "function_name": "technique_breakdown",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "techniqueName": {
+                    "type": "string",
+                    "description": "Name of the wrestling technique for which the breakdown is requested"
+                }
+            },
+            "required": ["techniqueName"]
+        },
+        "output_schema": {
+            "type": "object",
+            "properties": {
+                "breakdown": {
+                    "type": "string",
+                    "description": "Detailed breakdown of the requested wrestling technique"
+                }
+            }
+        }
+    },
+    {
+        "function_name": "match_strategy_advisor",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "userStyle": {
+                    "type": "string",
+                    "description": "Wrestling style of the user"
+                },
+                "opponentStyle": {
+                    "type": "string",
+                    "description": "Wrestling style of the opponent"
+                },
+                "matchType": {
+                    "type": "string",
+                    "description": "Type of the match (e.g., Folkstyle, Freestyle, Greco-Roman)"
+                }
+            },
+            "required": ["userStyle", "opponentStyle", "matchType"]
+        },
+        "output_schema": {
+            "type": "object",
+            "properties": {
+                "strategy": {
+                    "type": "string",
+                    "description": "Tailored strategy for the specific match"
+                }
+            }
+        }
+    },
+    {
+        "function_name": "training_program_generator",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "athleteLevel": {
+                    "type": "string",
+                    "description": "The competitive level of the athlete (e.g., Beginner, Intermediate, Advanced)"
+                },
+                "styleFocus": {
+                    "type": "string",
+                    "description": "Primary wrestling style of the athlete"
+                },
+                "strengths": {
+                    "type": "string",
+                    "description": "Key strengths of the athlete"
+                },
+                "weaknesses": {
+                    "type": "string",
+                    "description": "Areas where the athlete needs improvement"
+                },
+                "trainingGoals": {
+                    "type": "string",
+                    "description": "Primary goals of the athlete for the training program"
+                }
+            },
+            "required": ["athleteLevel", "styleFocus", "strengths", "weaknesses", "trainingGoals"]
+        },
+        "output_schema": {
+            "type": "object",
+            "properties": {
+                "trainingProgram": {
+                    "type": "string",
+                    "description": "Detailed training program tailored to the athlete's needs"
+                }
+            }
+        }
+    },
+    {
+        "function_name": "historical_match_analysis",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "matchDetails": {
+                    "type": "string",
+                    "description": "Details of the historical wrestling match"
+                }
+            },
+            "required": ["matchDetails"]
+        },
+        "output_schema": {
+            "type": "object",
+            "properties": {
+                "analysis": {
+                    "type": "string",
+                    "description": "Analysis of the historical match"
+                }
+            }
+        }
+    },
+    {
+        "function_name": "injury_prevention_tips",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "concernArea": {
+                    "type": "string",
+                    "description": "Specific area of concern for injury prevention"
+                }
+            },
+            "required": []
+        },
+        "output_schema": {
+            "type": "object",
+            "properties": {
+                "tips": {
+                    "type": "string",
+                    "description": "Injury prevention tips"
+                }
+            }
+        }
+    },
+    {
+        "function_name": "nutrition_guide",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "weightClass": {
+                    "type": "string",
+                    "description": "Weight class of the athlete"
+                },
+                "trainingIntensity": {
+                    "type": "string",
+                    "description": "Training intensity level"
+                },
+                "dietaryPreferences": {
+                    "type": "string",
+                    "description": "Dietary preferences or restrictions"
+                }
+            },
+            "required": ["weightClass", "trainingIntensity", "dietaryPreferences"]
+        },
+        "output_schema": {
+            "type": "object",
+            "properties": {
+                "dietPlan": {
+                    "type": "string",
+                    "description": "Customized diet plan"
+                }
+            }
+        }
+    },
+    {
+        "function_name": "competition_preparation_checklist",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "competitionLevel": {
+                    "type": "string",
+                    "description": "Level of the competition"
+                },
+                "competitionDate": {
+                    "type": "string",
+                    "description": "Date of the competition"
+                }
+            },
+            "required": ["competitionLevel", "competitionDate"]
+        },
+        "output_schema": {
+            "type": "object",
+            "properties": {
+                "checklist": {
+                    "type": "string",
+                    "description": "Preparation checklist for the competition"
+                }
+            }
+        }
+    },
+    {
+        "function_name": "rule_change_updates",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "ruleChange": {
+                    "type": "string",
+                    "description": "Description of the rule change"
+                },
+                "effectiveDate": {
+                    "type": "string",
+                    "description": "Date when the rule change becomes effective"
+                },
+                "style": {
+                    "type": "string",
+                    "description": "Wrestling style the rule change applies to"
+                }
+            },
+            "required": ["ruleChange", "effectiveDate", "style"]
+        },
+        "output_schema": {
+            "type": "object",
+            "properties": {
+                "updates": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "ruleChange": {
+                                "type": "string"
+                            },
+                            "effectiveDate": {
+                                "type": "string"
+                            },
+                            "style": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "description": "List of recent and upcoming rule changes"
+                }
+            }
+        }
+    }
+]
