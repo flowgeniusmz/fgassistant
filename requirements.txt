@@ -41,7 +41,7 @@ wikipedia
 arxiv
 pubmed
 altair
-st-wizard-form
+streamlit-aggrid
 simple_salesforce
 tavily-python
 pyautogen
