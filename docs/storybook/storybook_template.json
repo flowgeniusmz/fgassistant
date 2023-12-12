@@ -1,0 +1,86 @@
+{
+    "title": "{{title}}",
+    "pages": {
+        "page1": {
+            "narrative": "{{narrative for page 1}}",
+            "imageprompt": null,
+            "updatedimageprompt": null,
+            "seedid": null,
+            "genid": null,
+            "imageurl": null
+        },
+        "page2": {
+            "narrative": "{{narrative for page 2}}",
+            "imageprompt": null,
+            "updatedimageprompt": null,
+            "seedid": null,
+            "genid": null,
+            "imageurl": null
+        },
+        "page3": {
+            "narrative": "{{narrative for page 3}}",
+            "imageprompt": null,
+            "updatedimageprompt": null,
+            "seedid": null,
+            "genid": null,
+            "imageurl": null
+        },
+        "page4": {
+            "narrative": "{{narrative for page 4}}",
+            "imageprompt": null,
+            "updatedimageprompt": null,
+            "seedid": null,
+            "genid": null,
+            "imageurl": null
+        },
+        "page5": {
+            "narrative": "{{narrative for page 5}}",
+            "imageprompt": null,
+            "updatedimageprompt": null,
+            "seedid": null,
+            "genid": null,
+            "imageurl": null
+        },
+        "page6": {
+            "narrative": "{{narrative for page 6}}",
+            "imageprompt": null,
+            "updatedimageprompt": null,
+            "seedid": null,
+            "genid": null,
+            "imageurl": null
+        },
+        "page7": {
+            "narrative": "{{narrative for page 7}}",
+            "imageprompt": null,
+            "updatedimageprompt": null,
+            "seedid": null,
+            "genid": null,
+            "imageurl": null
+        },
+        "page8": {
+            "narrative": "{{narrative for page 8}}",
+            "imageprompt": null,
+            "updatedimageprompt": null,
+            "seedid": null,
+            "genid": null,
+            "imageurl": null
+        },
+        "page9": {
+            "narrative": "{{narrative for page 9}}",
+            "imageprompt": null,
+            "updatedimageprompt": null,
+            "seedid": null,
+            "genid": null,
+            "imageurl": null
+        },
+        "page10": {
+            "narrative": "{{narrative for page 10}}",
+            "imageprompt": null,
+            "updatedimageprompt": null,
+            "seedid": null,
+            "genid": null,
+            "imageurl": null
+        }
+    },
+    "pagecount": 10
+}
