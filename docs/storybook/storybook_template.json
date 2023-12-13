@@ -1,5 +1,11 @@
 {
     "title": "{{title}}",
+    "summary": "{{summary}}",
+    "character": {
+        "provided_image_url": "",
+        "create_description_instructions": "",
+        "character_description": ""
+    },
     "pages": {
         "page1": {
             "narrative": "{{narrative for page 1}}",
