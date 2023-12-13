@@ -1,5 +1,11 @@
 {
     "title": "Mia's Magical Moonlit Adventure",
+    "summary": "In 'Mia's Magical Moonlit Adventure,' a young girl named Mia embarks on an enchanting journey to the moon. After being summoned by a moonbeam from her bedroom, Mia explores the lunar landscape, meets a lunar rabbit, dances under a star shower, helps a lost star, and learns a secret from the moon itself. This magical tale is about adventure, friendship, and finding light in dark times.",
+    "character": {
+        "provided_image_url": "https://example.com/mia_image.jpg",
+        "create_description_instructions": "Create a prompt for DALLE3 to generate a storybook character in a Disney/Pixar-like format. The character is Mia, a young girl with an adventurous spirit and a curious mind. She should be depicted as ready for her moonlit adventure, possibly with elements reflecting the moon and stars in her attire or accessories. The style should be whimsical and appealing to children.",
+        "character_description": "Mia is a young girl with bright eyes and a curious smile. She wears a midnight blue dress adorned with silver stars and moon patterns. Her hair is tied up in a high ponytail, with a moon-shaped hair clip. She holds a small, glowing moonstone in one hand, symbolizing her connection to the moon and her adventurous spirit. Her expression is one of wonder and excitement, ready to embark on her magical moonlit journey."
+    },
     "pages": {
         "page1": {
             "narrative": "Mia gazed out her window at the sparkling moon, dreaming of a lunar adventure.",
